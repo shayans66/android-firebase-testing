@@ -26,7 +26,7 @@ import java.io.OutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-public class PostDetailActivity extends AppCompatActivity {
+public class TrophyDetailActivity extends AppCompatActivity {
 
     TextView mTitleTv, mDetailTv;
     ImageView mImageIv;
@@ -40,12 +40,12 @@ public class PostDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_post_detail);
+        setContentView(R.layout.activity_trophy_detail);
 
         //Action bar
         ActionBar actionBar = getSupportActionBar();
         //Actionbar title
-        actionBar.setTitle("Post Detail");
+        actionBar.setTitle("Trophy   Detail");
         //set back button in action bar
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);

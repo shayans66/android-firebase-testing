@@ -9,7 +9,7 @@
     app:cardElevation="3dp"
     app:cardUseCompatPadding="true"
     app:contentPadding="5dp"
-    tools:context=".PostDetailActivity">
+    tools:context=".TrophyDetailActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
                 android:id="@+id/descriptionTv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="This will be the description of the post"
+                android:text="This will be the description of the trophy"
                 android:textSize="20sp" />
 
             <LinearLayout

@@ -30,7 +30,7 @@
             />
         <TextView
             android:id="@+id/rDescriptionTv"
-            android:text="This will be the description of the post"
+            android:text="This will be the description of the trophy"
             android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
